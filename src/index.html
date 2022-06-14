@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer type="module" src="render.js"></script>
+    <script src="../library/papaparse.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  </head>
+  <body>
+    <div id="container"> 
+    <div id="left">
+      <table id="maincsv"></table>
+    </div>
+    <div id = "right">
+    <div id="right_upper"></div>
+    <div id="right_bottom">
+      <table id="sidecsv"></table>
+    </div>
+    </div>
+  </div>
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initTrajectory&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>
